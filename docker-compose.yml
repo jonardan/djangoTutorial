@@ -1,0 +1,8 @@
+version: '3.10.10'
+
+services:
+  django:
+    image: jscia/project:0.0.1
+    build: .
+    ports:
+      - "8000:8000"
